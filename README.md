@@ -29,42 +29,51 @@ This project demonstrates automated web testing, data extraction, conditional lo
 ---
 
 ## 📂 Project Structure
-
+```bash 
 speed-complaint-bot/
 │
 ├── main.py           # Main automation script (OOP Class)
 ├── .gitignore        # Git ignored files
 │
 └── README.md
-
+ ```
 ---
 
 ## ⚙️ Requirements
 
 Ensure Python is installed:
+```bash 
 python --version
-
+```
 Install Selenium:
+```bash 
 pip install selenium
+```
 
 Note: Ensure you have Chrome installed. Selenium 4+ manages the ChromeDriver automatically so no manual path setup is required.
 
 ---
 
-## 🚀 How to Run the Project
+### 🚀 How to Run the Project
 
 ### Clone the Repository
+```bash 
 git clone https://github.com/adebayoadesugba/speed-complaint-bot.git
+```
 
 ### Navigate into the Project Folder
+```bash 
 cd speed-complaint-bot
+```
 
 ### Run the Script
+```bash 
 python main.py
+```
 
 ---
 
-## 🔑 Configuration Setup
+### Configuration Setup
 
 Before running the script, update the following variables in main.py:
 
@@ -75,7 +84,7 @@ TWITTER_PASSWORD = "your_secret_password"
 
 ---
 
-## ⚙️ How It Works
+### ⚙️ How It Works
 
 1️⃣ Initialization: The bot initializes a Chrome browser and sets internal variables for upload and download speeds to zero.
 
@@ -96,9 +105,9 @@ TWITTER_PASSWORD = "your_secret_password"
 
 ---
 
-## 📊 Example Output
+### 📊 Example Output
 
-# Console output during run:
+#### Console output during run:
 Speedtest started...
 Testing complete.
 Download: 45.2 Mbps
@@ -109,7 +118,7 @@ Tweet posted successfully.
 
 ---
 
-## ⚠️ Security Warning
+### ⚠️ Security Warning
 
 - Warning: Be careful with your login credentials. Use environment variables (.env) if you plan to share this code.
 - Frequent automated logins may trigger Twitter's security verification (CAPTCHA or Email Code).
@@ -117,7 +126,7 @@ Tweet posted successfully.
 
 ---
 
-## 🧠 Key Concepts Demonstrated
+### 🧠 Key Concepts Demonstrated
 
 - Object-Oriented Programming (Class-based structure)
 - Browser Automation & Web Scraping
@@ -127,7 +136,7 @@ Tweet posted successfully.
 
 ---
 
-## 🔮 Future Improvements
+### 🔮 Future Improvements
 
 - Add logic to run the bot on a schedule (Cron Job)
 - Integrate a database to log speed history over time
@@ -136,7 +145,7 @@ Tweet posted successfully.
 
 ---
 
-## 👨‍💻 Author
+### 👨‍💻 Author
 
 Adebayo Adesugba (Dev Bayo)
 
@@ -145,7 +154,7 @@ Python | JavaScript | React | Node.js | AI Development
 
 ---
 
-## ⭐ Support
+### ⭐ Support
 
 If you like this project:
 - ⭐ Star the repository
@@ -154,6 +163,6 @@ If you like this project:
 
 ---
 
-## 📜 License
+### 📜 License
 
 This project is open-source and available under the MIT License.
